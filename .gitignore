@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+.node/
+
+# Output directories
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.local
+
+# OS / IDE metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

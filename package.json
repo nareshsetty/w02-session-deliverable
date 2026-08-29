@@ -1,0 +1,28 @@
+{
+  "name": "w02-session-deliverable",
+  "version": "1.0.0",
+  "description": "W02 Session Deliverable: Zod-wrapped structured chatbot with 10-case LLM-as-judge eval harness",
+  "type": "module",
+  "main": "src/chatbot.ts",
+  "scripts": {
+    "test": "node --import tsx src/eval/runner.ts",
+    "eval": "node --import tsx src/eval/runner.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "zod",
+    "eval-harness",
+    "llm-as-judge",
+    "structured-outputs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "tsx": "^4.23.12",
+    "typescript": "^5.9.3"
+  }
+}
